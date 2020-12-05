@@ -14,14 +14,14 @@ class loginController extends CI_Controller {
 		$this->load->library('form_validation');
         $this->output->set_header("Access-Control-Allow-Origin:*"); */
         
-        
+
 		
 	}
     
 
 	public function index()
 	{
-		$this->load->view('inicio/inicio1.php');
+		$this->load->view('welcome_message');
     }
     
     public function login(){
