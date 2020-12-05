@@ -1,18 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class loginController extends CI_Controller {
+class LoginController extends CI_Controller {
 
     public function __construct()
 	{
 		parent::__construct();
-/* 		$this->load->model('clienteModel');
+		$this->load->model('clienteModel');
         $this->load->model('loginModel');
         
         $this->load->helper(array('form','url'));
         
 		$this->load->library('form_validation');
-        $this->output->set_header("Access-Control-Allow-Origin:*"); */
+        $this->output->set_header("Access-Control-Allow-Origin:*");
         
 
 		
